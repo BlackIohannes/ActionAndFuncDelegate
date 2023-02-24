@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using ActionAndFuncDelegateInCsharp;
 
-Console.WriteLine("Hello, World!");
+HandleActionDelegate.PrintActionDelegate();
+HandleFuncDelegate.PrintFuncDelegate();
