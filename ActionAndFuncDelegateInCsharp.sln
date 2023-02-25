@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionAndFuncDelegateInCsharp", "ActionAndFuncDelegateInCsharp\ActionAndFuncDelegateInCsharp.csproj", "{E48F1309-3259-4985-8B59-BB2EE3D2E65B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{5C496039-B6B1-4E7A-9EAE-40CA3B0F867D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E48F1309-3259-4985-8B59-BB2EE3D2E65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E48F1309-3259-4985-8B59-BB2EE3D2E65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E48F1309-3259-4985-8B59-BB2EE3D2E65B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C496039-B6B1-4E7A-9EAE-40CA3B0F867D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C496039-B6B1-4E7A-9EAE-40CA3B0F867D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C496039-B6B1-4E7A-9EAE-40CA3B0F867D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C496039-B6B1-4E7A-9EAE-40CA3B0F867D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
