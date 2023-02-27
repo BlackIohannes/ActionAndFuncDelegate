@@ -7,14 +7,10 @@ public class HandleFuncDelegateTests
     [Fact]
         public void PrintFuncDelegate_PrintsResultToConsole()
         {
-            // Arrange
-            StringWriter consoleOutput = new StringWriter();
-            Console.SetOut(consoleOutput);
-            
-            HandleFuncDelegate.PrintFuncDelegate();
-    
+            var result = HandleFuncDelegate.PrintFuncDelegate();
+
             // Assert
-            Assert.Equal($"\nResult = 40{Environment.NewLine}", consoleOutput.ToString());
+            Assert.Equal($"\nResult = 40{Environment.NewLine}", result);
         }
 }
 

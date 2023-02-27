@@ -6,10 +6,11 @@ public class HandleFuncDelegate
     {
         return a + b;
     }
-    public static void PrintFuncDelegate()
+    public static string PrintFuncDelegate()
     {
         Func<int, int, int> AddNumbers = Add;
-        var result = Add(10, 30);
-        Console.WriteLine($"\nResult = {result}");
+        var result = AddNumbers(10, 30);
+
+        return $"\nResult = {result}\n";
     }
 }

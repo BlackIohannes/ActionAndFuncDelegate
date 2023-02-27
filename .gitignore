@@ -410,6 +410,7 @@ FodyWeavers.xsd
 # User-specific stuff
 /.idea
 .idea
+.idea/*
 .idea/
 !.idea/
 !.idea/ActionAndFuncDelegateInCsharp/

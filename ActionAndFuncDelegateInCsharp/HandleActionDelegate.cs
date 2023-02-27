@@ -2,15 +2,15 @@ namespace ActionAndFuncDelegateInCsharp;
 
 public class HandleActionDelegate
 {
-    public delegate void Print(int result);
-  
-    public static void PrintNumber(int a)
+    public delegate string Print(int result);
+
+    public static string PrintNumber(int a)
     {
-        Console.WriteLine($"\nResult = {a}");
+        return $"\nResult = {a}\n";
     }
-    public static void PrintActionDelegate()
+    public static string PrintActionDelegate()
     {
         Print print = PrintNumber;
-        print(2);
+        return print(2);
     }
 }
