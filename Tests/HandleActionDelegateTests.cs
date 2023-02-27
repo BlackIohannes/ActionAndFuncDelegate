@@ -7,11 +7,8 @@ public class HandleActionDelegateTests
     [Fact]
     public void PrintActionDelegate_PrintsResultToConsole()
     {
-        StringWriter consoleOutput = new StringWriter();
-        Console.SetOut(consoleOutput);
+        var result = HandleActionDelegate.PrintActionDelegate();
 
-        HandleActionDelegate.PrintActionDelegate();
-
-        Assert.Equal($"\nResult = 2{Environment.NewLine}", consoleOutput.ToString());
+        Assert.Equal($"\nResult = 2{Environment.NewLine}", result);
     }
 }
