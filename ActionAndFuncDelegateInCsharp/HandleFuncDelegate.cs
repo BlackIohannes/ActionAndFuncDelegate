@@ -11,6 +11,6 @@ public class HandleFuncDelegate
         Func<int, int, int> AddNumbers = Add;
         var result = AddNumbers(10, 30);
 
-        return $"\nResult = {result}\n";
+        return $"\nResult = {result}\r\n";
     }
 }

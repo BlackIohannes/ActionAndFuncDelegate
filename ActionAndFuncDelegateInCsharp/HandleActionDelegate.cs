@@ -6,7 +6,7 @@ public class HandleActionDelegate
 
     public static string PrintNumber(int a)
     {
-        return $"\nResult = {a}\n";
+        return $"\nResult = {a}\r\n";
     }
     public static string PrintActionDelegate()
     {
